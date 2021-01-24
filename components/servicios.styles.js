@@ -66,7 +66,7 @@ export const ServiceCard = styled.div`
     border-radius: 25px;
     background: #FBFBFB;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    transition:  transform 0.5s ease 0.4s,
+    transition:  transform 0.3s ease 0.5s,
                  background-color 0.5s ease-out;
 
     &:hover{

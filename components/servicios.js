@@ -1,4 +1,4 @@
-import {Wrapper} from './hero.styles'
+
 import Image from 'next/image'
 import { About, AboutContainer, ServiceCard, ServiceContainer, ServiceTitleCont, ServiceTitle, Space, SpaceLine, Subhead, IconCont } from './servicios.styles'
 
@@ -44,33 +44,33 @@ export default function Servicios() {
     ]
 
     return(
-        <Wrapper>
-            <AboutContainer>
-            <Space><SpaceLine></SpaceLine></Space>
-                <About>Somos una clínica especializada en el trabajo terapéutico integral, proporcionamos estrategias y soluciones en áreas como: Educación especial, psicopedagogía, psicología, tanatología y medicina. </About>
-            </AboutContainer>
-            <Subhead>Atención Profesional</Subhead>
+    <>
+        <AboutContainer>
+        <Space><SpaceLine></SpaceLine></Space>
+            <About>Somos una clínica especializada en el trabajo terapéutico integral, proporcionamos estrategias y soluciones en áreas como: Educación especial, psicopedagogía, psicología, tanatología y medicina. </About>
+        </AboutContainer>
+        <Subhead>Atención Profesional</Subhead>
 
-            <ServiceContainer>
-                { servicios.map((servicios, i) => {
-                    return (
-                        <a href="https://api.whatsapp.com/send?phone=+525517040299" target="_blank">
-                            <ServiceCard key ={i}>
-                                <IconCont>
-                                    <Image src={servicios['icono']} height={60} width={60} quality={100} />
-                                </IconCont>
-                                <ServiceTitleCont>
-                                    <ServiceTitle>{servicios['servicio']}</ServiceTitle>
-                                </ServiceTitleCont>
-                            </ServiceCard>
-                        </a>
-                    )
-                })
-                }
+        <ServiceContainer>
+            { servicios.map((servicios, index) => {
+                return (
+                    <a href="https://api.whatsapp.com/send?phone=+525517040299" target="_blank">
+                        <ServiceCard key ={ index.toString() }>
+                            <IconCont>
+                                <Image src={servicios['icono']} height={60} width={60} quality={100} />
+                            </IconCont>
+                            <ServiceTitleCont>
+                                <ServiceTitle>{servicios['servicio']}</ServiceTitle>
+                            </ServiceTitleCont>
+                        </ServiceCard>
+                    </a>
+                )
+            })
+            }
 
-            </ServiceContainer>
-            
-            <Space><SpaceLine></SpaceLine></Space>
-        </Wrapper>
+        </ServiceContainer>
+        
+        <Space><SpaceLine></SpaceLine></Space>
+    </>
     )
 }

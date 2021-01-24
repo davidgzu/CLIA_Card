@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Hero from '../components/hero'
 import Servicios from '../components/servicios'
 import Consultoria from '../components/consultoria'
+import { Wrapper } from '../components/hero.styles'
 
 export default function Home() {
   return (
@@ -16,13 +17,15 @@ export default function Home() {
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi"
       /> 
     </Head>
-   
-   <Hero/>
-   
-   <Servicios/>
 
-  <Consultoria/>
+    
+   <Wrapper>
+    <Hero/>
+    
+    <Servicios/>
 
+    <Consultoria/>
+  </Wrapper>
     </>
   )
 }
