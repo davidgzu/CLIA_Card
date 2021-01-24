@@ -4,6 +4,7 @@ import Servicios from '../components/servicios'
 import Consultoria from '../components/consultoria'
 import Contacto from '../components/contacto'
 import { Wrapper } from '../components/hero.styles'
+import Footer from '../components/footer'
 
 export default function Home() {
   return (
@@ -34,6 +35,7 @@ export default function Home() {
       <i className="fa fa-whatsapp my-float"></i>
     </a>  
 
+    <Footer/>
     
   </Wrapper>
     </>
