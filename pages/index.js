@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Hero from '../components/hero'
+import Servicios from '../components/servicios'
 
 export default function Home() {
   return (
@@ -15,7 +16,10 @@ export default function Home() {
       /> 
     </Head>
    
-   <Hero></Hero>
+   <Hero/>
+   
+   <Servicios/>
+
 
     </>
   )
