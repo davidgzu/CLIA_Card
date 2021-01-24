@@ -54,14 +54,16 @@ export default function Servicios() {
             <ServiceContainer>
                 { servicios.map((servicios, i) => {
                     return (
-                        <ServiceCard key ={i}>
-                            <IconCont>
-                                <Image src={servicios['icono']} height={60} width={60} quality={100} />
-                            </IconCont>
-                            <ServiceTitleCont>
-                                <ServiceTitle>{servicios['servicio']}</ServiceTitle>
-                            </ServiceTitleCont>
-                        </ServiceCard>
+                        <a href="https://api.whatsapp.com/send?phone=+525517040299" target="_blank">
+                            <ServiceCard key ={i}>
+                                <IconCont>
+                                    <Image src={servicios['icono']} height={60} width={60} quality={100} />
+                                </IconCont>
+                                <ServiceTitleCont>
+                                    <ServiceTitle>{servicios['servicio']}</ServiceTitle>
+                                </ServiceTitleCont>
+                            </ServiceCard>
+                        </a>
                     )
                 })
                 }

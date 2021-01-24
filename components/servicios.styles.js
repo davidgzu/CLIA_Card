@@ -51,7 +51,7 @@ export const ServiceContainer = styled.div`
     grid-template-columns: 1fr 1fr 1fr;
     padding: 0 10%;
     grid-gap: 2rem 4rem;
-    margin-bottom: 40px; 
+    margin-bottom: 30px; 
 
     @media (max-width: 425px){
         grid-template-columns: 1fr 1fr;
