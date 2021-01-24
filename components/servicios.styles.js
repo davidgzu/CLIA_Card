@@ -55,7 +55,8 @@ export const ServiceContainer = styled.div`
 
     @media (max-width: 425px){
         grid-template-columns: 1fr 1fr;
-        grid-gap: 2rem 1rem;
+        grid-gap: 1rem;
+        padding: 0 5%;
     }
 `;
 

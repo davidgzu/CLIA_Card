@@ -26,20 +26,20 @@ export default function Servicios() {
             icono: '/iconos/terapiasensorial.svg'
         },
         {
-            servicio:'Atención a alumn@s con NEE (necesidades educativas especiales)',
-            icono: '/iconos/nee.svg'
-        },
-        {
-            servicio: 'Valoración del desarrollo, psicopedagógica.',
-            icono: '/iconos/desarrollo.svg'
+            servicio: 'Terapia de Psicomotricidad',
+            icono: '/iconos/psicomotricidad.svg'
         },
         {
             servicio: 'Orientación a padres',
             icono: '/iconos/padres.svg'
         },
         {
-            servicio: 'Psicomotricidad',
-            icono: '/iconos/psicomotricidad.svg'
+            servicio: 'Valoración del desarrollo, psicopedagógica.',
+            icono: '/iconos/desarrollo.svg'
+        },
+        {
+            servicio:'Atención a alumn@s con NEE (necesidades educativas especiales)',
+            icono: '/iconos/nee.svg'
         }
     ]
 
