@@ -6,7 +6,7 @@ export const ButtonsContainer = styled.div`
     padding: 0 20%;
     display: none;
 
-    @media (max-width: 425px){
+    @media (max-width: 600px){
         display: flex;
     }
 `;

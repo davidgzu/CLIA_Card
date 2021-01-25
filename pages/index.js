@@ -5,6 +5,7 @@ import Consultoria from '../components/consultoria'
 import Contacto from '../components/contacto'
 import { Wrapper } from '../components/hero.styles'
 import Footer from '../components/footer'
+import Background from '../components/background'
 
 export default function Home() {
   return (
@@ -21,23 +22,24 @@ export default function Home() {
       /> 
     </Head>
 
-    
-   <Wrapper>
-    <Hero/>
-    
-    <Servicios/>
+   <Background/>
+      <Wrapper>
+        <Hero/>
+        
+        <Servicios/>
 
-    <Consultoria/>
+        <Consultoria/>
 
-    <Contacto/>
+        <Contacto/>
 
-    <a href="whatsapp://send?phone=+525517040299" className="float" target="_blank">
-      <i className="fa fa-whatsapp my-float"></i>
-    </a>  
+        <a href="whatsapp://send?phone=+525517040299" className="float" target="_blank">
+          <i className="fa fa-whatsapp my-float"></i>
+        </a>  
 
-    <Footer/>
-    
-  </Wrapper>
+        <Footer/>
+        
+      </Wrapper>
+   
     </>
   )
 }

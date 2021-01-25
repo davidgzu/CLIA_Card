@@ -21,7 +21,7 @@ export const ConsultoriaCont = styled.div`
     padding: 0 15%;
     margin-bottom: 30px;
 
-    @media(max-width: 425px){
+    @media(max-width: 600px){
         padding: 0 5%;
     }
 `;
@@ -41,7 +41,7 @@ export const List = styled.ul`
     list-style: none;
     margin:0;
 
-    @media (max-width: 425px){
+    @media (max-width: 600px){
         padding: 0;
     }
 `;
@@ -52,7 +52,7 @@ export const ListItem = styled.li`
     align-items: center;
     margin: 20px;
 
-    @media (max-width: 425px){
+    @media (max-width: 600px){
         font-size: 14px;
     }
 

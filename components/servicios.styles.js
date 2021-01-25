@@ -27,7 +27,7 @@ export const About = styled.h2`
     margin: auto;
     max-width: 70%;
 
-    @media (max-width: 425px){
+    @media (max-width: 600px){
         font-size: 18px;
         line-height: 24px;
     }
@@ -39,7 +39,7 @@ export const Subhead = styled.h3`
     margin-left: 70px;
     text-align: left;  
 
-    @media (max-width: 425px){
+    @media (max-width: 600px){
         font-size: 24px;
         margin-bottom: 25px;
     }
@@ -53,7 +53,7 @@ export const ServiceContainer = styled.div`
     grid-gap: 2rem 4rem;
     margin-bottom: 30px; 
 
-    @media (max-width: 425px){
+    @media (max-width: 600px){
         grid-template-columns: 1fr 1fr;
         grid-gap: 1rem;
         padding: 0 5%;

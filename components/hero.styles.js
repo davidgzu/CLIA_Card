@@ -14,7 +14,7 @@ export const HeroContainer = styled.div`
     display: flex;
     align-self: center; 
 
-    @media (max-width: 425px){
+    @media (max-width: 600px){
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -38,7 +38,7 @@ export const HeroHeader = styled.div`
        padding: 0 0 0 80px;
    }
 
-   @media (max-width: 425px){
+   @media (max-width: 600px){
        width: 100%;
        padding: 0;
        margin: auto;
@@ -54,7 +54,7 @@ export const HeroTitle = styled.h1`
        font-size: 26px;
    }
 
-   @media (max-width: 425px){
+   @media (max-width: 600px){
        display: none;
    }
 `;
@@ -66,7 +66,7 @@ export const Logo = styled.div`
        max-width: 200px;
    }
 
-   @media (max-width: 425px){
+   @media (max-width: 600px){
        align-items: center;
        justify-content: center;
        display: flex;
@@ -85,7 +85,7 @@ export const ImageTerapist = styled.div`
        width:50%;
    }
    
-   @media (max-width: 425px){
+   @media (max-width: 600px){
        width: 100%;
 
    }
@@ -93,7 +93,7 @@ export const ImageTerapist = styled.div`
 
 export const HeroMobileText = styled.div`
     display: none;
-    @media (max-width: 425px){
+    @media (max-width: 600px){
         display: flex;
         width: 100%;
         align-items: center;
@@ -105,7 +105,7 @@ export const HeroMobileText = styled.div`
 export const HeroTitleMobile = styled.h1` 
     display: none;
     
-    @media(max-width: 425px){
+    @media(max-width: 600px){
         display: unset;
         font-size: 26px;
         line-height: 34px; 
