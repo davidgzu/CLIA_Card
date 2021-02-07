@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Parallax } from 'react-scroll-parallax';
+import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
 
 export const BackgroundCont = styled.div `
   position: absolute;
@@ -9,9 +9,6 @@ export const BackgroundCont = styled.div `
 
 export const BackgroundImage = styled.img`
     width: 100%;
-    @media (max-width: 800px) {
-      width: 138px;
-    }
 `;
 
 export const LeftHeader = styled(Parallax) `
@@ -20,8 +17,9 @@ export const LeftHeader = styled(Parallax) `
   left: -20vh;
   
   @media (max-width: 800px){
-    top: 40vh;
-    width: 138px;
+    top: -20vh;
+    left: -20vw;
+    width: 338px;
   }
 `;
 
@@ -31,8 +29,9 @@ export const CenterCircle = styled(Parallax) `
     left:  100vh;
   
   @media (max-width: 800px){
-    top: 40vh;
-    width: 138px;
+    top: 60vh;
+    width: 238px;
+    left: -30vw;
   }
 `;
 
@@ -43,7 +42,8 @@ export const RightHeader = styled(Parallax) `
   
   @media (max-width: 800px){
     top: 40vh;
-    width: 138px;
+    width: 180px;
+    right: 0;
   }
 `;
 
@@ -53,7 +53,20 @@ export const MediumLeft = styled(Parallax) `
     left:  10vh;
   
   @media (max-width: 800px){
-    top: 40vh;
+    top: 90vh;
+    left: 45vw;
     width: 138px;
+
+  }
+`;
+
+export const MediumRight = styled(Parallax)`
+  position: absolute;
+  top: 90vh;
+  right: 10vw;
+
+  @media (max-width: 800px){
+    top: 100vh;
+    left: -20vw;
   }
 `;

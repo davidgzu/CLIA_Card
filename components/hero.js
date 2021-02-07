@@ -8,13 +8,13 @@ export default function Hero(){
                 <Logo> 
                     <Image src="/Clia.png" width={2126} height={945} quality={100}/> 
                 </Logo>
-                <HeroTitle>Clínica especializada en el trabajo terapéutico integral</HeroTitle>
+                <HeroTitle>Somos una clínica especializada en el trabajo terapéutico integral.</HeroTitle>
             </HeroHeader>
             <ImageTerapist>
                 <Image src="/terapist.png" width={400} height={400} quality={100} />
             </ImageTerapist>
             <HeroMobileText>
-                    <HeroTitleMobile>Clínica especializada en el trabajo terapéutico integral</HeroTitleMobile>
+                    <HeroTitleMobile>Somos una clínica especializada en el trabajo terapéutico integral.</HeroTitleMobile>
                 </HeroMobileText>
         </HeroContainer>
     )

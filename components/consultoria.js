@@ -10,19 +10,19 @@ export default function Consultoria () {
                 <CardConsultoria>
                     <List>
                     <a href="https://api.whatsapp.com/send?phone=+525517040299" target="_blank">
-                        <ListItem>Inclusión educativa: Proyectos para escuelas, ajustes razonables al plan regular.</ListItem>
+                        <ListItem>Inclusión educativa: Proyectos para escuelas y ajustes razonables.</ListItem>
                     </a>
                     <a href="https://api.whatsapp.com/send?phone=+525517040299" target="_blank">
-                        <ListItem>Asesoría y capacitaciones a escuelas.</ListItem>
+                        <ListItem>Asesoría y capacitación a escuelas.</ListItem>
                     </a>
                     <a href="https://api.whatsapp.com/send?phone=+525517040299" target="_blank">
-                        <ListItem>Cursos y talleres para docentes preescolar y primaria. </ListItem>
+                        <ListItem>Cursos y talleres para docentes.</ListItem>
                     </a>
                     <a href="https://api.whatsapp.com/send?phone=+525517040299" target="_blank">
-                        <ListItem>Talleres  para niñ@s, adolescentes y adultos.</ListItem>
+                        <ListItem>Talleres para niñ@s, adolescentes y adultos.</ListItem>
                     </a>
                     <a href="https://api.whatsapp.com/send?phone=+525517040299" target="_blank">
-                        <ListItem>Capacitación a maestro integrador o asistentes terapéuticos con supervisión del caso.</ListItem>
+                        <ListItem>Capacitación y supervisión a maestr@s integradores (sombras) y asistentes terapéuticos.</ListItem>
                     </a>
                     </List>
                 </CardConsultoria>
