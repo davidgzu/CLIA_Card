@@ -5,7 +5,7 @@ export default function Contacto() {
     const shareData = {
         title: 'CLIA',
         text: 'Clínica especializada en el trabajo terapéutico integral',
-        url: 'https://developer.mozilla.org',
+        url: 'https://tarjetavirtual.clinicaclia.com/',
       }
 
     const share = async() => {
